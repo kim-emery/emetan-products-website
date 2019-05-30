@@ -1,0 +1,73 @@
+p, h1, h2, h3, html, body, table{
+  margin: 0px;
+  padding: 0px;
+  color:#0B1317;
+
+}
+
+html, body{
+	height: 100%;
+	width: 100%;
+
+}
+
+body{
+  background-image: linear-gradient(#D1E9EF,#1C323B);
+
+}
+
+h1{
+  font-size: 5em;
+	font-family: 'Droid Serif', serif;
+}
+
+
+ul{
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+}
+
+li{
+  color: #ffb900;
+  bottom: 0;
+  position: relative;
+}
+#topHeader{
+  
+	text-align: center;
+	width: 100%;
+  /*    vh */
+	height: 15vh;
+  background-color: white;
+  top: 0;
+  /* horizontaldist, verticalDist, bkurRadius, SpreadRadius, color */
+  /*comma-separate list of shadows */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.25), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+#logoName{
+  width:30%;
+  height: 15vh;
+  float: left;
+}
+#linkBar{
+  width: 70%;
+  float: right;
+  height: 15vh;
+  background-color: white;
+
+}
+
+#footerBox{
+  background-color: #0B1317;
+  height: 40px;
+  width: 100%;
+  bottom: 0px;
+  position: fixed;
+  color: grey;
+
+  text-align: center;
+
+}
