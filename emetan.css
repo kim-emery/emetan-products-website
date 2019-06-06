@@ -1,8 +1,19 @@
-p, h1, h2, h3, html, body, table{
+/* 
+Version 1.2.1
+
+
+*/
+
+
+p, h1, h2, h3, body, html, table{
   margin: 0px;
   padding: 0px;
   color:#0B1317;
 
+}
+
+html{
+  height: 100%;
 }
 
  a.linkLogo{
@@ -10,7 +21,7 @@ p, h1, h2, h3, html, body, table{
  }
 
 body{
-  background-image: linear-gradient(#D1E9EF,#1C323B);
+  background: linear-gradient(#D1E9EF,#1C323B);
   background-repeat: no-repeat; 
   background-attachment: fixed;
 
